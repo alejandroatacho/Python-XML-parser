@@ -52,12 +52,12 @@ class run:
             print(child.attrib, child.text, child.tag)
 
             if i == 0:
-                print("start")
+                # print("start")
 
                 i = len(child) + 1
                 investor1 = ET.Element("investor")
                 investor1.text = investor_new
-                print(i)
+                # print(i)
 
                 # investor1.set("{val}".format(val=str(i)))
                 # investor1 = ET.fromstring(
