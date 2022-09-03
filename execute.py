@@ -59,12 +59,10 @@ class run:
                 investor1.text = investor_new
                 print(i)
 
-                def comment(null):
-                    comment = None
-                    # investor1.set("{val}".format(val=str(i)))
-                    # investor1 = ET.fromstring(
-                    #     '<investor> name="Hinamizawa"</investor> id="{val}" />').format(val=i)  # creates the investor tag
-                    # adds the investor tag to the root
+                # investor1.set("{val}".format(val=str(i)))
+                # investor1 = ET.fromstring(
+                #     '<investor> name="Hinamizawa"</investor> id="{val}" />').format(val=i)  # creates the investor tag
+                # adds the investor tag to the root
                 root.append(investor1)
                 tree.write(storage)  # save in the xml file
                 print("Investor has been added")
