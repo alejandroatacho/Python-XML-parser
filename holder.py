@@ -49,11 +49,16 @@ class run:
             # print("im working")
             print(child.attrib, child.text, child.tag)
 
-            if 1 == 1:
+            if i == 0:
                 print("start")
                 i = len(child) + 1
-                investor1 = ET.fromstring(
-                    '<investor> name="Hinamizawa"</investor> id="{val}" />' .format(val=i))  # creates the investor tag
+                investor1 = ET.Element("investor")
+                investor1.text = "investor"
+                print(i)
+                # investor1.set("{val}".format(val=str(i)))
+                # investor1 = ET.fromstring(
+                #     '<investor> name="Hinamizawa"</investor> id="{val}" />').format(val=i)  # creates the investor tag
+                # adds the investor tag to the root
                 root.append(investor1)
                 tree.write(storage)  # save in the xml file
                 print("Investor has been added")
@@ -66,7 +71,13 @@ class run:
             else:
                 print("I broke there is no subchild")
 
+    def add_id():
+        for id, investor in enumerate(root.findall('investor')):
+            investor.set('id', str(id))
+        tree.write(storage)  # save in the xml file
+
     if __name__ == '__main__':
         # run_id()
         # run()
-        add_investor()
+        # add_investor()
+        add_id()
