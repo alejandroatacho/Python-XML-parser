@@ -1,18 +1,20 @@
-!#/bin/bash
+#!/bin/cmd
 # Path: run.sh
 
 PS3= 'Please enter your choice: '
-options=("Option 1" "Option 2" "Option 3" "Quit")
+options=("1. Tree viewer" "2. Add Investors" "3.#" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
-        "Option 1")
-            exec python main.py
-            ;;
-        "Option 2")
+        "1. Tree viewer")
             exec python tree_viewer.py
             ;;
-        "Option 3")
+        "2. Add Investors")
+        read -r -p "Press any key to continue!: " response
+        response=${response,,}    # tolower
+            exec python execute.py
+            ;;
+        "3.#")
             echo "you chose choice $REPLY which is $opt"
             ;;
         "Quit")

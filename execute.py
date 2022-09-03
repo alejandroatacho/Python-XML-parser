@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+from time import sleep
 tree = ET.parse('views\holder.xml')  # opens the file
 root = tree.getroot()  # gets the root of the file
 storage = "views\holder.xml"
@@ -60,7 +61,6 @@ class run:
 
                 def comment(null):
                     comment = None
-
                     # investor1.set("{val}".format(val=str(i)))
                     # investor1 = ET.fromstring(
                     #     '<investor> name="Hinamizawa"</investor> id="{val}" />').format(val=i)  # creates the investor tag
@@ -86,5 +86,7 @@ class run:
     if __name__ == '__main__':
         # run_id()
         # run()
+        sleep(0.5)
         add_investor()
         add_id()
+        input("Press any key to exit...")
