@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/css" href="../style.css"?>
 <code_space>
     <table>
         <thead>
@@ -21,13 +21,6 @@
                                 <year>2011</year>
                                 <gdppc>59900</gdppc>
                                 <neighbor name="Malaysia" direction="N" />
-                            </country>
-                            <country name="Panama">
-                                <rank>68</rank>
-                                <year>2011</year>
-                                <gdppc>13600</gdppc>
-                                <neighbor name="Costa Rica" direction="W" />
-                                <neighbor name="Colombia" direction="E" />
                             </country>
                             <h1 id="demo">This is a Heading</h1>
 
