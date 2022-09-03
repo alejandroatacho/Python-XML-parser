@@ -55,6 +55,7 @@ def run():
 if __name__ == '__main__':
     sleep(0.5)
     run()
+    ET.dump(tree)
     input("Press any key to exit...")
     pass
     #  upgrade_run()
