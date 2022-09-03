@@ -38,9 +38,10 @@
                     <br></br>
 
                 </div>
+                <script xmlns="http://www.w3.org/1999/xhtml" src="external.js"></script>
+
             </tr>
         </thead>
-        <script xmlns="http://www.w3.org/1999/xhtml" src="external.js"></script>
 
     </table>
 </code_space>

@@ -15,6 +15,8 @@ print(root.tag, root.attrib, "root/parent has been found")
 print(f"\nPython code space has initiated successfully!\n")
 for child in root:
     print(child.tag, child.attrib, child.text)
+    for subchild in child:
+        print(subchild.tag, subchild.attrib, subchild.text)
     while root[i] == True:
         print("This is the" + root[i] + "child of the root element")
         i += 1
