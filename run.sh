@@ -1,4 +1,4 @@
-#!/bin/cmd
+#!/bin/bash
 # Path: run.sh
 
 PS3= 'Please enter your choice: '
