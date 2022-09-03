@@ -5,16 +5,21 @@ import os
 xml_file = "main.xml"
 xml_file_path = os.path.join(os.path.dirname(__file__), xml_file)
 tree = ET.parse(xml_file_path)
-root = tree.getroot()
+root = tree.getroot()  # root is the root element of the XML file
 
 # Python variables to have fun with
-family = ''
-print(root.tag, root.attrib)
+i = 0
+print(root.tag, root.attrib, "root/parent has been found")
 
 # Python code space
-print("Python code space has initiated")
+print(f"\nPython code space has initiated successfully!\n")
 for child in root:
     print(child.tag, child.attrib, child.text)
+    while root[i] == True:
+        print("This is the" + root[i] + "child of the root element")
+        i += 1
+    else:
+        print("all childrens are dead :C")
     #print(child.attrib, child.text, child.tag)
 '''
 
