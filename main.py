@@ -11,7 +11,7 @@ root = tree.getroot()  # root is the root element of the XML file
 
 
 # Python code space
-def __run__():
+def run():
 
     print(root.tag, root.attrib, "root/parent has been found")
     print(f"\nPython code space has initiated successfully!\n")
@@ -35,7 +35,7 @@ def upgrade_run():
 
 # Run all the functions
 if __name__ == '__main__':
-    __run__()
+    run()
     upgrade_run()
 
 # End of file
