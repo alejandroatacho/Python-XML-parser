@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<friendsList>
+    <friend>
+        <name>Alex</name>
+        <age>25</age>
+    </friend>
+    <friend>
+        <name>Mary</name>
+        <age>22</age>
+    </friend>
+    <friend>
+        <name>Rachel</name>
+        <age>19</age>
+    </friend>
+    <bestFriend>
+        <name>Ana</name>
+        <age>18</age>
+    </bestFriend>
+</friendsList>

@@ -1,0 +1,13 @@
+<root>
+    <f:table xmlns:f="http:///www.w3.org/TR/html4/">
+        <f:name>Coffee Table</f:name>
+        <f:width>10</f:width>
+        <f:height>20</f:height>
+    </f:table>
+    <h:table xmlns:h="http:///www.w3.org/TR/html4/">
+        <h:tr>
+            <h:td>Apples</h:td>
+            <h:td>Bananas</h:td>
+        </h:tr>
+    </h:table>
+</root>
