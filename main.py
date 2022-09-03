@@ -1,3 +1,4 @@
+from asyncio.windows_events import NULL
 import xml.etree.ElementTree as ET
 import os
 
@@ -8,9 +9,12 @@ tree = ET.parse(xml_file_path)
 root = tree.getroot()  # root is the root element of the XML file
 
 # Python variables to have fun with
-
+i = 0
+storage = None
 
 # Python code space
+
+
 def run():
 
     print(root.tag, root.attrib, "root/parent has been found")
@@ -36,6 +40,6 @@ def upgrade_run():
 # Run all the functions
 if __name__ == '__main__':
     run()
-    upgrade_run()
+    #  upgrade_run()
 
 # End of file
