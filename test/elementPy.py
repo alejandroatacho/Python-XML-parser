@@ -40,7 +40,7 @@ def value_change():
 
 
 if __name__ == "__main__":
-    # check()
+    check()
     # country()
     # direction()
-    value_change()
+    # value_change()
