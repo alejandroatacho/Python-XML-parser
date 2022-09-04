@@ -51,7 +51,6 @@ def run():
 
 
 # Run all the functions
-
 if __name__ == '__main__':
     sleep(0.5)
     run()

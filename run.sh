@@ -15,7 +15,8 @@ do
             exec python execute.py
             ;;
         "#")
-            echo "you chose choice $REPLY which is $opt"
+            echo $opt
+            # echo "you chose choice $REPLY which is $opt"
             ;;
         "Quit")
             break
