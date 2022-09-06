@@ -1,9 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="file.css" type="text/css"?>
+
 <class>
-    <student>
-        <firstname>Daniel</firstname>
-        <lastname>Capello</lastname>
-        <age>27</age>
-    </student>
-
-
+    <name>Simple</name>
+    <namespace name="Python Injections">MyApp\Views</namespace>
+    <extends>MyApp\Views\Sample</extends>
+    <properties>
+        <property>
+            <name>country</name>
+            <type>MyApp\Models\Country</type>
+        </property>
+    </properties>
 </class>

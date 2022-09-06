@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="../scss/style.css"?>
 <code_space>
+    <nav>
+        <ul>
+            <li>
+                <a href="simple.xml">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
     <table>
         <thead>
             <tr>
+                <div class="data_holder">
+                    <data class="data_value">
+                        <sample id="0">
+                            <name>.</name>
+                            <value>.</value>
+                        </sample>
+                    </data>
+
+                </div>
                 <div class="container">
                     <container>
                         <h1>Hello World</h1>

@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 import os
 
 # Python variables for the XML file
-xml_file = 'views\main.xml'  # Path to the XML file
+xml_file = 'views\simple.xml'  # Path to the XML file
 xml_file_path = os.path.join(os.path.dirname(__file__), xml_file)
 tree = ET.parse(xml_file_path)
 root = tree.getroot()  # root is the root element of the XML file
