@@ -1,0 +1,11 @@
+<family_class>
+    <ul category="family_info">
+       <name />
+       <lastname />
+       <address />
+    </ul>
+    <ul category="family_past">
+        <last_spouse_name />
+        <old_address />
+    </ul>
+<class1>Any value</class1></family_class>
