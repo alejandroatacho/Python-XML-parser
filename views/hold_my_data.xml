@@ -1,0 +1,27 @@
+<icecreams>
+  <icecream>
+    <flavor>Strawberry</flavor>
+    <description>A sweet and creamy ice cream made with fresh strawberries.</description>
+    <price>12,99</price>
+  </icecream>
+  <icecream>
+    <flavor>Rocky Road</flavor>
+    <description>A classic flavor featuring chocolate ice cream, marshmallows, and nuts.</description>
+    <price>12,99</price>
+  </icecream>
+  <icecream>
+    <flavor>Mint Chocolate Chip</flavor>
+    <description>A refreshing flavor with cool mint and chocolate chips.</description>
+    <price>9,99</price>
+  </icecream>
+  <icecream>
+    <flavor>Cookies and Cream</flavor>
+    <description>A delicious blend of vanilla ice cream and crunchy chocolate cookies.</description>
+    <price>15,99</price>
+  </icecream>
+  <icecream>
+    <flavor>Vanilla</flavor>
+    <description>Classic vanilla ice cream</description>
+    <price>3.50</price>
+  </icecream>
+</icecreams>
